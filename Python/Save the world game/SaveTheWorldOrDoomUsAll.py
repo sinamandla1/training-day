@@ -4,6 +4,8 @@
 answer1 = input("Greetings! you have no choice but to answer these questions or else!\n so which country was Nelson Mandela born?:")
 if answer1 == "South Africa":
     print("Nice one, NEXT")
+elif answer1 == "south africa":
+    print("Nice one, NEXT")
 else:
     print("you have DOOMED US ALL!!")
     exit()
@@ -19,6 +21,8 @@ else:
 #Question 3
 answer1 = input("Which country has the world's tallest building?:")
 if answer1 == "Saudi Arabia":
+    print("Nice one, NEXT")
+elif answer1 == "saudi arabia":
     print("Nice one, NEXT")
 else:
     print("you have DOOMED US ALL!!")
@@ -43,6 +47,8 @@ else:
 #Question 6
 answer1 = input("Who was the 30th president of the United States?:")
 if answer1 == "Calvin Coolidge":
+    print("Nice one, NEXT")
+elif answer1 == "calvin coolidge":
     print("Nice one, NEXT")
 else:
     print("you have DOOMED US ALL!!")
